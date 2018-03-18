@@ -20,18 +20,23 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 600; 
+ /* font-weight: 600; 
   font-family: 'Open Sans', sans-serif;
-  color:#4e4e4e;
+  color:#4e4e4e;*/
+ font-family: 'Trocchi', serif; 
+/* color: #7c795d; font-family: 'Source Sans Pro', sans-serif; font-size: 28px; font-weight: 400; line-height: 32px; margin: 0 0 24px; */
+
 }
 
 h1{
-  font-size: 36px;
-  color:#fff;
+  font-size: 60px;
+  color:#8a6d3b;
+  font-style: italic;
 }
 
 h2{
-  font-size: 20px;
+  font-size: 30px;
+  font-style: italic;
 }
 
 h3{
@@ -379,7 +384,7 @@ input.search-form:hover {
 }
 
 #main-slider .carousel .slide-margin{
-  margin-top: 140px;
+  margin-top: -8em;
 }
 
 #main-slider .carousel h2 {
@@ -411,7 +416,7 @@ input.search-form:hover {
   position: absolute;
   width: 100%;
   display: block !important;
-  height: 530px;
+  height: 400px;
   -webkit-transition: opacity ease-in-out 500ms;
   -moz-transition: opacity ease-in-out 500ms;
   -o-transition: opacity ease-in-out 500ms;
@@ -591,7 +596,9 @@ input.search-form:hover {
 }
 
 #recent-works{
+    padding-top: 20px;
     padding-bottom: 70px;
+
 }
 
 .recent-work-wrap {

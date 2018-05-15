@@ -1,5 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -31,103 +33,46 @@
 <body class="homepage">
     <script src="//localhost:35729/livereload.js"></script>
 
+    <header id="header">
+        <nav class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!--  <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a> -->
+                </div>
 
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li class="active">
+                            <a href="index.html">Présentation</a>
+                        </li>
+                        <li>
+                            <a href="#recent-works">Date et tarifs</a>
+                        </li>
+                        <li>
+                            <a href="#middle">Parcours</a>
+                        </li>
+                        <li>
+                            <a href="#middle">Inscription</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
 
     <section id="main-slider" class="no-margin">
         <div class="carousel slide">
-            <!--      <ol class="carousel-indicators">
-                <li data-target="#main-slider" data-slide-to="0" class="active"></li>
-                <li data-target="#main-slider" data-slide-to="1"></li>
-                <li data-target="#main-slider" data-slide-to="2"></li>
-            </ol> -->
-            <!-- <div class="carousel-inner">  -->
-
-            <div class="item active" style="background-image: url(images/slider/slide_bg1.jpg)">
-                <div class="container">
-                    <div class="row slide-margin">
-                        <div class="col-sm-10">
-                            <div class="carousel-content">
-                                <!--  <h1 class="animation animated-item-1">Balade Gourmande</h1>
-                                <h2 class="animation animated-item-2">Grandson et sa région.</h2> -->
-                            </div>
-                        </div>
-
-                        <div class="col-sm-6 hidden-xs animation animated-item-4">
-                            <div class="slider-img">
-                                <!-- <img src="images/slider/img1.png" class="img-responsive"> -->
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <!--/.item -->
-
-            <div class="item" style="background-image: url(images/slider/slide_bg2.jpg)">
-                <div class="container">
-                    <div class="row slide-margin">
-                        <div class="col-sm-6">
-                            <div class="carousel-content">
-                                <!--  <h1 class="animation animated-item-1">tes</h1>
-                                    <h2 class="animation animated-item-2">tes</h2>
-                                    <a class="btn-slide animation animated-item-3" href="#">sa</a> -->
-                            </div>
-                        </div>
-
-                        <div class="col-sm-6 hidden-xs animation animated-item-4">
-                            <div class="slider-img">
-                                <!-- <img src="images/slider/img2.png" class="img-responsive"> -->
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="item" style="background-image: url(images/slider/slide_bg3.jpg)">
-                <div class="container">
-                    <div class="row slide-margin">
-                        <div class="col-sm-6">
-                            <div class="carousel-content">
-                                <!--  <h1 class="animation animated-item-1">tes</h1>
-                                    <h2 class="animation animated-item-2">tes</h2>
-                                    <a class="btn-slide animation animated-item-3" href="#">sa</a> -->
-                            </div>
-                        </div>
-
-                        <div class="col-sm-6 hidden-xs animation animated-item-4">
-                            <div class="slider-img">
-                                <!-- <img src="images/slider/img2.png" class="img-responsive"> -->
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-
-
-            <!--               <div class="item" style="background-image: url(images/slider/bg3.jpg)">
-                    <div class="container">
-                        <div class="row slide-margin">
-                            <div class="col-sm-6">
-                                <div class="carousel-content">
-                                    <h1 class="animation animated-item-1">Map</h1>
-                                    <h2 class="animation animated-item-2">Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...</h2>
-                                    <a class="btn-slide animation animated-item-3" href="#">Read More</a>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 hidden-xs animation animated-item-4">
-                                <div class="slider-img">
-                                    <img src="images/slider/img3.png" class="img-responsive">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>  -->
-            <!-- </div> /.carousel-inner  -->
+              <div class="item active" style="background-image: url(images/slider/slide_bg1.jpg)"></div>
+            <div class="item" style="background-image: url(images/slider/slide_bg2.jpg)"></div>
+            <div class="item" style="background-image: url(images/slider/slide_bg3.jpg)"></div>
         </div>
-        <!--/.carousel-->
         <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
             <i class="fa fa-chevron-left"></i>
         </a>
@@ -135,68 +80,8 @@
             <i class="fa fa-chevron-right"></i>
         </a>
     </section>
-    <!--/#main-slider-->
+ 
 
-    <!--   <section id="feature" >
-        <div class="container">
-           <div class="center wow fadeInDown">
-                <h2>Features</h2>
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
-            </div>
-
-            <div class="row">
-                <div class="features">
-                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                        <div class="feature-wrap">
-                            <i class="fa fa-bullhorn"></i>
-                            <h2>Freh and Clean</h2>
-                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                        <div class="feature-wrap">
-                            <i class="fa fa-comments"></i>
-                            <h2>Retina ready</h2>
-                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                        <div class="feature-wrap">
-                            <i class="fa fa-cloud-download"></i>
-                            <h2>Easy t customize</h2>
-                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
-                        </div>
-                    </div>
-                
-                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                        <div class="feature-wrap">
-                            <i class="fa fa-leaf"></i>
-                            <h2>Adipisicing elit</h2>
-                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                        <div class="feature-wrap">
-                            <i class="fa fa-cogs"></i>
-                            <h2>Sed do eiusmod</h2>
-                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                        <div class="feature-wrap">
-                            <i class="fa fa-heart"></i>
-                            <h2>Labore et dolore</h2>
-                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>   
-        </div>
-    </section> -->
 
     <section id="recent-works">
         <div class="container">
@@ -204,9 +89,8 @@
                 <h1 class="animation animated-item-1">Balade Gourmande</h1>
                 <h2 class="animation animated-item-2">Grandson et sa région</h2>
 
-                <p class="lead">Une balade pédestre de 6.5 km dans la région de Grandson, avec un départ depuis le Château.
-                    <br> La balade est agrémentée de 6 étapes gastronomiques proposant
-                    <br>des produits de notre terroir et une sélection de vins de
+                <p class="lead">Cette 10e éditon fait découvrir un parcours de 6 km dans la région de Grandson, avec un départ depuis la Cour de Bonvillars en cheminant jusqu'à Champagne puis retour à Bonvillars au travers des villages vignerons. La balade est agrémentée de 6 étapes gastronomiques proposant des produits de notre terroir et une sélection de vins de l’Appellation Bonvillars. Pour cette10e édition, plusieurs animations tout au long du parcours sont prévues.
+
                     <span style="color: #c52d2f;">l’Appellation Bonvillars.</span>
                 </p>
             </div>
@@ -220,103 +104,29 @@
                     <br> Enfants de moins de 8 ans / Kinder unter 8 Jahre : Gratuit / Gratis</p>
             </div>
             <div class="center wow fadeInDown" style="padding-bottom: 20px;">
-                    <h3 class="animation animated-item-1">Le parcours</h3>
-                    <p>Passer votre souris sur les postes pour plus d'informations</p>
-                    
+                <h3 class="animation animated-item-1">Le parcours</h3>
+                <p>Passer votre souris sur les postes pour plus d'informations</p>
+
                 <iframe src="https://balademap.herokuapp.com/#/map" frameBorder="0" width="100%" height="400"> </iframe>
-                </div>
+            </div>
             <!--/.row-->
         </div>
         <!--/.container-->
     </section>
-    <!--/#recent-works-->
-
-        <!--  <section id="services" class="service-item">
-        <div class="container">
-            <div class="center wow fadeInDown">
-                <h2>Le parcours</h2>
-            </div>
-
-            <div class="row">
-
-            
-
-                          <div class="col-sm-6 col-md-4">
-                    <div class="media services-wrap wow fadeInDown">
-                        <div class="pull-left">
-                            <img class="img-responsive" src="images/services/services1.png">
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">SEO Marketing</h3>
-                            <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-4">
-                    <div class="media services-wrap wow fadeInDown">
-                        <div class="pull-left">
-                            <img class="img-responsive" src="images/services/services2.png">
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">SEO Marketing</h3>
-                            <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-4">
-                    <div class="media services-wrap wow fadeInDown">
-                        <div class="pull-left">
-                            <img class="img-responsive" src="images/services/services3.png">
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">SEO Marketing</h3>
-                            <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
-                        </div>
-                    </div>
-                </div>  
-
-                <div class="col-sm-6 col-md-4">
-                    <div class="media services-wrap wow fadeInDown">
-                        <div class="pull-left">
-                            <img class="img-responsive" src="images/services/services4.png">
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">SEO Marketing</h3>
-                            <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-4">
-                    <div class="media services-wrap wow fadeInDown">
-                        <div class="pull-left">
-                            <img class="img-responsive" src="images/services/services5.png">
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">SEO Marketing</h3>
-                            <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-4">
-                    <div class="media services-wrap wow fadeInDown">
-                        <div class="pull-left">
-                            <img class="img-responsive" src="images/services/services6.png">
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">SEO Marketing</h3>
-                            <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
-                        </div>
-                    </div>
-                </div>   
-            </div>
-        </div>
-    </section> -->
-
+  
     <section id="middle">
+
+            <div class="center wow fadeInDown" style="padding-bottom: 20px;">
+                    <h3 class="animation animated-item-1">Animation</h3>
+                    <p class="lead">
+                        <span style="color: #c52d2f;"></span>
+                        <br>
+                        <br> Musique et animation
+                        <br> fin, orchestre et buvette
+                        <br> a la fin dans la cours vente des vins présent sur la balade 
+                    
+                    </p>
+                </div>
 
     </section>
     <!--/#middle-->
@@ -334,18 +144,7 @@
     <script src="js/jquery.isotope.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/wow.min.js"></script>
-    <script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date(); a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-        ga('create', 'UA-63217693-2', 'auto');
-        ga('send', 'pageview');
-
-    </script>
 </body>
 
 </html>

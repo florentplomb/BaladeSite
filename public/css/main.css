@@ -314,21 +314,25 @@ input.search-form:hover {
   margin:0;
 }
 
+.lh30{
+  line-height: 30px;
+}
+
 .navbar {
   border-radius: 0;
   margin-bottom: 0;
   background: #151515;
-  padding: 15px 0;
+  padding: 0 0;
   padding-bottom: 0;
 }
 
  .navbar-nav{
-  margin-top: 2px;
+  margin-top: 9px;
  }
 
 .navbar-nav>li{
   margin-left: 35px;
-  padding-bottom: 18px;
+  padding-bottom: 0px;
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -731,7 +735,7 @@ input.search-form:hover {
   margin-right: 20px;
 }
 
-#middle {
+.gray-bg {
   background: #f2f2f2;
 }
 

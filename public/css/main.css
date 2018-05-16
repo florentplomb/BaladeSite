@@ -28,6 +28,45 @@ h6 {
 
 }
 
+.myButton {
+  font-family: 'Trocchi', serif;
+  font-style: italic; 
+	-moz-box-shadow: 0px 10px 14px -7px #010a08;
+	-webkit-box-shadow: 0px 10px 14px -7px #010a08;
+	box-shadow: 0px 10px 14px -7px #010a08;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c52d2f), color-stop(1, #c52d2f));
+	background:-moz-linear-gradient(top, #c52d2f 5%, #c52d2f 100%);
+	background:-webkit-linear-gradient(top, #c52d2f 5%, #c52d2f 100%);
+	background:-o-linear-gradient(top, #c52d2f 5%, #c52d2f 100%);
+	background:-ms-linear-gradient(top, #c52d2f 5%, #c52d2f 100%);
+	background:linear-gradient(to bottom, #c52d2f 5%, #c52d2f 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c52d2f', endColorstr='#c52d2f',GradientType=0);
+	background-color:#c52d2f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:12px 50px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #8a3d3d;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c52d2f), color-stop(1, #c52d2f));
+	background:-moz-linear-gradient(top, #c52d2f 5%, #c52d2f 100%);
+	background:-webkit-linear-gradient(top, #c52d2f 5%, #c52d2f 100%);
+	background:-o-linear-gradient(top, #c52d2f 5%, #c52d2f 100%);
+	background:-ms-linear-gradient(top, #c52d2f 5%, #c52d2f 100%);
+	background:linear-gradient(to bottom, #c52d2f 5%, #c52d2f 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c52d2f', endColorstr='#c52d2f',GradientType=0);
+	background-color:#c52d2f;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
 h1{
   font-size: 60px;
   color:#8a6d3b;
@@ -57,9 +96,16 @@ a {
   transition:  color 300ms, background-color 300ms;
 }
 
-a:hover, a:focus {
-  color: #d43133;
+.h2{
+    font-size: 30px;
+    font-style: italic;
+    color: #c52d2f;
+    font-family: 'Trocchi', serif;
 }
+
+ a:hover, a:focus {
+  color: #d43133;
+} 
 
 hr {
   border-top: 1px solid #e5e5e5;

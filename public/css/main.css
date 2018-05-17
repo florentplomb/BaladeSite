@@ -112,6 +112,44 @@ hr {
   border-bottom: 1px solid #fff;
 }
 
+.two-col {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+.menu h3 {
+ color:#c52d2f;
+}
+.menu h3:after {
+  display: inline-block;
+  margin: 0 0 8px 20px;
+  height: 1px;
+  content: " ";
+  text-shadow: none;
+  background-color: rgba(34, 34, 34, 0.542);
+  width: 240px;
+}
+.menu h3:before {
+  display: inline-block;
+  margin: 0 20px 8px 0;
+  height: 1px;
+  content: " ";
+  text-shadow: none;
+  background-color: rgba(34, 34, 34, 0.542);
+  width: 240px;
+}
+
+
+
+.box {
+  width: 200px; height: 200px;
+  background: #666;
+
+  border-top-left-radius: 15em 1em;
+  border-bottom-right-radius: 15em 1em;
+
+}
 
 .btn-primary {
   padding: 8px 20px;

@@ -90,6 +90,17 @@ h4{
   font-style: italic;
 }
 
+.font1em{
+font-size: 1.1em;
+}
+.italic{
+  font-style: italic;
+}
+
+.bottom20{
+  margin-bottom: 20px;
+}
+
 a {
   color: #c52d2f;
   -webkit-transition: color 300ms, background-color 300ms;
@@ -114,11 +125,7 @@ hr {
   border-bottom: 1px solid #fff;
 }
 
-.two-col {
-  columns: 2;
-  -webkit-columns: 2;
-  -moz-columns: 2;
-}
+
 
 .menu h3 {
  color:#c52d2f;

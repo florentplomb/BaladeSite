@@ -130,23 +130,23 @@ hr {
 .menu h3 {
  color:#c52d2f;
 }
-.menu h3:after {
+.line:after {
   display: inline-block;
   margin: 0 0 8px 20px;
   height: 1px;
   content: " ";
   text-shadow: none;
   background-color: rgba(34, 34, 34, 0.542);
-  width: 440px;
+  width: 400px;
 }
-.menu h3:before {
+.line:before {
   display: inline-block;
   margin: 0 20px 8px 0;
   height: 1px;
   content: " ";
   text-shadow: none;
   background-color: rgba(34, 34, 34, 0.542);
-  width: 440px;
+  width: 400px;
 }
 
 

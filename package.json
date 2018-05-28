@@ -2,7 +2,7 @@
   "name": "florentplomb",
   "version": "1.0.0",
   "description": "My resume",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },

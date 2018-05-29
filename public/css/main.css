@@ -301,7 +301,7 @@ body > section {
  display: inline-block;
  list-style: none;
  padding: 0;
- margin: 0;
+ margin-right:2em;
 }
 
 ul.social-share li {
@@ -2627,7 +2627,27 @@ shortcodes page css
   margin-left: 15px;
 }
 
+.btn-facebook {
+  color: #ffffff;
+  background-color: #133783;
+  border-color: #133783;
+}
 
+.btn-facebook:hover,
+.btn-facebook:focus,
+.btn-facebook:active,
+.btn-facebook.active,
+.open .dropdown-toggle.btn-facebook {
+  color: #ffffff;
+  background-color: #0e285f;
+  border-color: #0b214e;
+}
+
+.btn-facebook:active,
+.btn-facebook.active,
+.open .dropdown-toggle.btn-facebook {
+  background-image: none;
+}
 
 
 

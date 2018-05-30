@@ -2658,6 +2658,10 @@ shortcodes page css
   margin-top: 20px;
 }
 
+.mright{
+  margin-right: 200px;
+}
+
 .bold{
   font-weight: bold;
 }

@@ -436,6 +436,7 @@ input.search-form:hover {
   color: #fff;
 }
 
+
 .navbar-inverse .navbar-nav .dropdown-menu > li:hover > a,
 .navbar-inverse .navbar-nav .dropdown-menu > li:focus > a,
 .navbar-inverse .navbar-nav .dropdown-menu > li.active > a {
@@ -2649,6 +2650,16 @@ shortcodes page css
   background-image: none;
 }
 
+.top10{
+  margin-top: 10px;
+}
 
+.top20{
+  margin-top: 20px;
+}
+
+.bold{
+  font-weight: bold;
+}
 
 
